@@ -1,0 +1,40 @@
+Xft.dpi:                    130
+Xft.antialias:              true
+Xft.rgba:                   rgb
+Xft.hinting:                true
+Xft.hintstyle:              hintslight
+
+*pointerColorBackground: #586e75
+*pointerColorForeground: #93a1a1
+
+URxvt.depth:                32
+URxvt.geometry:             90x30
+URxvt.loginShell:           true
+URxvt.internalBorder:       3
+URxvt.lineSpace:            0
+
+URxvt*transparent: true
+
+!URxvt*tintColor: S_base03
+
+!shading - 0 to 99 darkens, 101 to 200 lightens.
+URxvt*shading: 60
+
+URxvt*saveLines: 12000
+
+URxvt*foreground: #657b83
+URxvt*background: #002b36
+
+!URxvt*fading: 40
+!URxvt*fadeColor: #110f1f
+
+URxvt*font: xft:IBM Plex Mono:pixelsize=24
+URxvt*boldFont: xft:IBM Plex Mono:bold:pixelsize=24
+URxvt*letterSpace: -1
+
+URxvt*scrollBar: false
+
+URxvt*scrollBar_right: false
+
+!scrollbar style - rxvt (default), plain, next, or xterm
+URxvt*scrollstyle: plain
