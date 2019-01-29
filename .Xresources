@@ -15,7 +15,8 @@ URxvt.lineSpace:            0
 
 URxvt*transparent: true
 
-!URxvt*tintColor: S_base03
+!for true transparency, tiny color must be commented
+!URxvt*tintColor: #5D5371
 
 !shading - 0 to 99 darkens, 101 to 200 lightens.
 URxvt*shading: 60
@@ -28,9 +29,9 @@ URxvt*background: #002b36
 !URxvt*fading: 40
 !URxvt*fadeColor: #110f1f
 
-URxvt*font: xft:IBM Plex Mono:pixelsize=24
-URxvt*boldFont: xft:IBM Plex Mono:bold:pixelsize=24
-URxvt*letterSpace: -1
+URxvt*font: xft:DejaVu Sans Mono:pixelsize=24, xft:Droid Sans Mono for Powerline:pixelsize=24
+URxvt*boldFont: xft:DejaVu Sans Mono:bold:pixelsize=24, xft:Droid Sans Mono for Powerline:bold:pixelsize=24
+!URxvt*letterSpace: 0
 
 URxvt*scrollBar: false
 
